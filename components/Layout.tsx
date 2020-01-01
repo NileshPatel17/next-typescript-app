@@ -26,6 +26,10 @@ const Layout: React.FunctionComponent<Props> = ({
           <a>About</a>
         </Link>{' '}
         |{' '}
+        <Link href="/hola">
+          <a>Hola</a>
+        </Link>{' '}
+        |{' '}
         <Link href="/users">
           <a>Users List</a>
         </Link>
