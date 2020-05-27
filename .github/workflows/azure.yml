@@ -22,7 +22,15 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '10.x'
-               
+
+    - name: npm install, build, and run
+      run: |
+        # Build and test the project, then
+        # deploy to Azure Web App.
+        npm install
+        npm run build
+        npm start
+        
    # deploy web app using Azure credentials
     - uses: azure/webapps-deploy@v2
       with:
