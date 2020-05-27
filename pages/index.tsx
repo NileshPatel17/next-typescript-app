@@ -6,7 +6,7 @@ import { version } from '../package.json'
 const IndexPage: NextPage = () => {
   return (
     <Layout title="Home | Next.js + TypeScript Example">
-      <h1>Hello Next.js 👋</h1>
+      <h1>Hello Next.js with Azure 👋</h1>
       <h2>Version: {version}</h2>
       <p>
         <Link href="/about">
