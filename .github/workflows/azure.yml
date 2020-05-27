@@ -28,8 +28,8 @@ jobs:
         # Build and test the project, then
         # deploy to Azure Web App.
         npm install
-        npm run build
-        npm start
+        npm run dev
+        #npm start
         
    # deploy web app using Azure credentials
     - uses: azure/webapps-deploy@v2
