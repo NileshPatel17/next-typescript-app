@@ -6,7 +6,7 @@
     "build": "next build",
     "prebuild":"npm run clear",
     "clear":"rimraf .next",
-    "start": "cross-env NODE_ENV=production node server.js",
+    "start": "node server.js",
     "type-check": "tsc"
   },
   "dependencies": {

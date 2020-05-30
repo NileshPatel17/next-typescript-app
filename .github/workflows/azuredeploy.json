@@ -6,19 +6,19 @@
     "variables": {},
     "resources": [
         {
-            "name": "npatel-app3",
+            "name": "npatel-nextapp",
             "type": "Microsoft.Web/sites",
             "apiVersion": "2018-11-01",
             "location": "[resourceGroup().location]",
             "tags": {
                 "[concat('hidden-related:', resourceGroup().id, '/providers/Microsoft.Web/serverfarms/npatel_Plan')]": "Resource",
-                "displayName": "npatel-app3"
+                "displayName": "npatel-nextapp"
             },
             "dependsOn": [
                 "[resourceId('Microsoft.Web/serverfarms', 'npatel_Plan')]"
             ],
             "properties": {
-                "name": "npatel-app3",
+                "name": "npatel-nextapp",
                 "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', 'npatel_Plan')]"
             }
         },
