@@ -3,7 +3,7 @@ on: [push]
 name: Node.js
 
 env:
-  AZURE_WEBAPP_NAME: npatel-app3    # set this to your application's name
+  AZURE_WEBAPP_NAME: npatel-nextapp    # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
 
 jobs:  
